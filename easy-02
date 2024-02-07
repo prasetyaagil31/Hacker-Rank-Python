@@ -11,3 +11,12 @@ import sys
 
 if __name__ == '__main__':
     n = int(input().strip())
+w = "Weird"
+nw = "Not Weird"
+odd = (n%2==1)
+even = (n%2==0)
+if odd or (even and(6 <= n <= 20)):
+    print(w)
+else:
+    if (even and (2 <= n <= 5)) or (even and (n > 20)):
+        print(nw)
