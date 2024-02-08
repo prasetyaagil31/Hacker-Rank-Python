@@ -3,9 +3,8 @@
 if __name__ == '__main__':
     a = int(input())
     b = int(input())
-   
-    addition = a + b
-    subtraction = a - b 
-    multiplication = a * b
-
-print(f"{addition}\n{subtraction}\n{multiplication}\n")
+    
+    res_integer = a//b
+    res_float = a/b
+    print(res_integer)
+    print(res_float)
